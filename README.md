@@ -5,6 +5,7 @@ Minigames Ahoy! is a Discord bot packed with party games, quick games, 2-player 
 This repo is where you can ask questions, start discussions, suggest new games or features, report bugs, and catch official update announcements. It's not the bot's source code — just the community/support hub.
 
 **[Add the bot to your server →](https://discord.com/oauth2/authorize?client_id=1442543093634039859)**
+
 **[Join the support server →](SUPPORT_SERVER_LINK)**
 
 ---
@@ -83,15 +84,19 @@ Playing games earns you levels, and you can track your stats and progress over t
 ## <img src="https://api.iconify.design/mdi:help-circle-outline.svg?color=%2322c55e" width="22" style="vertical-align:middle"/> FAQ
 
 **Is Minigames Ahoy! free to use?**
+
 Completely free with no premium, I maintain and run this bot as a hobby.
 
 **Why isn't the bot responding to my commands?**
+
 Check bot permissions, slash command sync delay, bot status page, etc.
 
 **How do I delete my data?**
+
 Run `/profile settings` and choose the delete option. See the [Privacy Policy](PRIVACY_POLICY.md) for details.
 
 **Can I suggest a game that already exists in another bot?**
+
 Yes, open a Game Suggestion issue and explain what would make it fit here.
 
 ---
