@@ -1,17 +1,32 @@
-# Minigames Ahoy! 🏴‍☠️
+# Minigames Ahoy! <img src="https://api.iconify.design/mdi:sail-boat.svg?color=%23374151" width="28" style="vertical-align:middle"/>
 
 Minigames Ahoy! is a Discord bot packed with party games, quick games, 2-player games, and a bunch of extra features to keep your server busy.
 
-This repo is where you can ask questions, start discussions, suggest new games or features, report bugs, and catch official update announcements. It's not the bot's source code, just the community/support hub.
+This repo is where you can ask questions, start discussions, suggest new games or features, report bugs, and catch official update announcements. It's not the bot's source code — just the community/support hub.
 
-**[Add the bot to your server → ](https://discord.com/oauth2/authorize?client_id=1442543093634039859)**
-**[Join the support server → ](SUPPORT_SERVER_LINK)**
+**[Add the bot to your server →](https://discord.com/oauth2/authorize?client_id=1442543093634039859)**
+**[Join the support server →](SUPPORT_SERVER_LINK)**
+
+---
+
+## <img src="https://api.iconify.design/mdi:format-list-bulleted.svg?color=%23374151" width="22" style="vertical-align:middle"/> Table of Contents
+
+- [Features](#features)
+  - [Party Games](#party-games)
+  - [Quick Games](#quick-games)
+  - [2-Player Games](#2-player-games)
+  - [Other Features](#other-features)
+- [FAQ](#faq)
+- [Legal](#legal)
+- [Changelog](#changelog)
+- [Contributing / Feedback](#contributing--feedback)
+- [Support](#support)
 
 ---
 
 ## Features
 
-### Party Games
+### <img src="https://api.iconify.design/mdi:party-popper.svg?color=%23a855f7" width="22" style="vertical-align:middle"/> Party Games
 Games for a whole group to play together.
 
 - Hunger Games
@@ -25,10 +40,10 @@ Games for a whole group to play together.
 - Poker
 - Spelling Bee
 
-### Quick Games
+### <img src="https://api.iconify.design/mdi:lightning-bolt.svg?color=%23eab308" width="22" style="vertical-align:middle"/> Quick Games
 Fast-paced solo or group challenges.
 
-- Fast Game *(plays a random quick game from the list below not including pokemon and fast react)*
+- Fast Game *(plays a random quick game from the list below, not including Pokemon and Fast React)*
 - Fast Type
 - Fast Click
 - Reverse Type
@@ -38,7 +53,7 @@ Fast-paced solo or group challenges.
 - Fast React
 - Fast Word
 
-### 2-Player Games
+### <img src="https://api.iconify.design/mdi:sword-cross.svg?color=%23ef4444" width="22" style="vertical-align:middle"/> 2-Player Games
 Head-to-head games for two people.
 
 - Rock Paper Scissors
@@ -49,7 +64,7 @@ Head-to-head games for two people.
 - Dice Poker
 - Blackjack
 
-### Other Features
+### <img src="https://api.iconify.design/mdi:star-four-points-outline.svg?color=%2306b6d4" width="22" style="vertical-align:middle"/> Other Features
 - Counting
 - Question of the Day
 - Truth or Dare
@@ -59,18 +74,47 @@ Playing games earns you levels, and you can track your stats and progress over t
 
 ---
 
+## <img src="https://api.iconify.design/mdi:help-circle-outline.svg?color=%2322c55e" width="22" style="vertical-align:middle"/> FAQ
+
+**Is Minigames Ahoy! free to use?**
+Placeholder answer — yes / no, and mention any premium tiers if they exist.
+
+**Why isn't the bot responding to my commands?**
+Placeholder answer — check bot permissions, slash command sync delay, bot status page, etc.
+
+**How do I delete my data?**
+Run `/profile settings` and choose the delete option. See the [Privacy Policy](PRIVACY_POLICY.md) for details.
+
+**Can I use coins for anything right now?**
+Placeholder answer — not yet, see the [Terms of Service](TERMS_OF_SERVICE.md) for the current state of coins.
+
+**Can I suggest a game that already exists in another bot?**
+Placeholder answer — yes, open a Game Suggestion issue and explain what would make it fit here.
+
+*(This section is a work in progress — real questions will replace these as they come in.)*
+
+---
+
 ## Legal
 
 - [Privacy Policy](PRIVACY_POLICY.md)
 - [Terms of Service](TERMS_OF_SERVICE.md)
 
+## Changelog
+
+Bot updates and release notes are posted as GitHub Releases:
+
+**[View the latest release →](https://github.com/DinoCDX/minigames-ahoy-issues/releases/latest)**
+
+[See all releases](https://github.com/DinoCDX/minigames-ahoy-issues/releases)
+
 ## Contributing / Feedback
 
 Got an idea for a new game, a feature request, or found a bug? Open an issue using one of the templates:
 
-- [Report a bug](../../issues/new?template=bug_report.yml)
-- [Suggest a new game](../../issues/new?template=game_suggestion.yml)
-- [Suggest a feature](../../issues/new?template=feature_suggestion.yml)
+- <img src="https://api.iconify.design/mdi:bug.svg?color=%23ef4444" width="16" style="vertical-align:middle"/> [Report a bug](../../issues/new?template=bug_report.yml)
+- <img src="https://api.iconify.design/mdi:dice-multiple.svg?color=%23a855f7" width="16" style="vertical-align:middle"/> [Suggest a new game](../../issues/new?template=game_suggestion.yml)
+- <img src="https://api.iconify.design/mdi:lightbulb-on-outline.svg?color=%23eab308" width="16" style="vertical-align:middle"/> [Suggest a feature](../../issues/new?template=feature_suggestion.yml)
 
 ## Support
 
