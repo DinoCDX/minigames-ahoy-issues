@@ -1,0 +1,42 @@
+name: 💡 Feature Suggestion
+description: Suggest a feature that isn't a new game (settings, commands, quality-of-life, etc.)
+title: "[Feature]: "
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Got an idea to make the bot better? Let us know! (Suggesting a whole new game? Use the "Game Suggestion" template instead.)
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Describe the feature
+      description: What should the bot do?
+      placeholder: I'd like the bot to...
+    validations:
+      required: true
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: What problem does this solve, or what would it improve?
+      placeholder: Right now it's annoying that...
+    validations:
+      required: false
+
+  - type: textarea
+    id: extra
+    attributes:
+      label: Anything else?
+      description: Mockups, examples from other bots, edge cases, etc.
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Checklist
+      options:
+        - label: I searched existing issues to make sure this hasn't already been suggested
+          required: true
