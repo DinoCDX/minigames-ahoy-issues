@@ -1,0 +1,61 @@
+name: 🎲 Game Suggestion
+description: Suggest a brand new game for the bot
+title: "[Game]: "
+labels: ["game suggestion"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Want to see a new game added? Tell us about it below.
+
+  - type: input
+    id: game-name
+    attributes:
+      label: Game name
+      placeholder: e.g. Werewolf, Trivia, Connect Four
+    validations:
+      required: true
+
+  - type: dropdown
+    id: game-type
+    attributes:
+      label: What type of game is this?
+      options:
+        - Party game
+        - Quick game
+        - 2-player game
+        - Other / not sure
+    validations:
+      required: true
+
+  - type: textarea
+    id: how-it-works
+    attributes:
+      label: How does it work?
+      description: Explain the rules or gameplay loop as clearly as you can.
+      placeholder: Players take turns...
+    validations:
+      required: true
+
+  - type: textarea
+    id: why
+    attributes:
+      label: Why would this be a good fit for the bot?
+    validations:
+      required: false
+
+  - type: textarea
+    id: reference
+    attributes:
+      label: Reference (optional)
+      description: Link to a similar game, bot, or app if one exists
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Checklist
+      options:
+        - label: I searched existing issues to make sure this hasn't already been suggested
+          required: true
