@@ -5,7 +5,6 @@ Minigames Ahoy! is a Discord bot packed with party games, quick games, 2-player 
 This repo is where you can ask questions, start discussions, suggest new games or features, report bugs, and catch official update announcements. It's not the bot's source code — just the community/support hub.
 
 **[Add the bot to your server →](https://discord.com/oauth2/authorize?client_id=1442543093634039859)**
-
 **[Join the support server →](SUPPORT_SERVER_LINK)**
 
 ---
@@ -25,8 +24,10 @@ This repo is where you can ask questions, start discussions, suggest new games o
 
 ---
 
+<a id="features"></a>
 ## Features
 
+<a id="party-games"></a>
 ### <img src="https://api.iconify.design/mdi:party-popper.svg?color=%23a855f7" width="22" style="vertical-align:middle"/> Party Games
 Games for a whole group to play together.
 
@@ -41,6 +42,7 @@ Games for a whole group to play together.
 - Poker
 - Spelling Bee
 
+<a id="quick-games"></a>
 ### <img src="https://api.iconify.design/mdi:lightning-bolt.svg?color=%23eab308" width="22" style="vertical-align:middle"/> Quick Games
 Fast-paced solo or group challenges.
 
@@ -54,6 +56,7 @@ Fast-paced solo or group challenges.
 - Fast React
 - Fast Word
 
+<a id="2-player-games"></a>
 ### <img src="https://api.iconify.design/mdi:sword-cross.svg?color=%23ef4444" width="22" style="vertical-align:middle"/> 2-Player Games
 Head-to-head games for two people.
 
@@ -65,6 +68,7 @@ Head-to-head games for two people.
 - Dice Poker
 - Blackjack
 
+<a id="other-features"></a>
 ### <img src="https://api.iconify.design/mdi:star-four-points-outline.svg?color=%2306b6d4" width="22" style="vertical-align:middle"/> Other Features
 - Counting
 - Question of the Day
@@ -75,6 +79,7 @@ Playing games earns you levels, and you can track your stats and progress over t
 
 ---
 
+<a id="faq"></a>
 ## <img src="https://api.iconify.design/mdi:help-circle-outline.svg?color=%2322c55e" width="22" style="vertical-align:middle"/> FAQ
 
 **Is Minigames Ahoy! free to use?**
@@ -91,11 +96,13 @@ Yes, open a Game Suggestion issue and explain what would make it fit here.
 
 ---
 
+<a id="legal"></a>
 ## Legal
 
 - [Privacy Policy](PRIVACY_POLICY.md)
 - [Terms of Service](TERMS_OF_SERVICE.md)
 
+<a id="changelog"></a>
 ## Changelog
 
 Bot updates and release notes are posted as GitHub Releases:
@@ -104,6 +111,7 @@ Bot updates and release notes are posted as GitHub Releases:
 
 [See all releases](https://github.com/DinoCDX/minigames-ahoy-issues/releases)
 
+<a id="contributing--feedback"></a>
 ## Contributing / Feedback
 
 Got an idea for a new game, a feature request, or found a bug? Open an issue using one of the templates:
@@ -112,6 +120,7 @@ Got an idea for a new game, a feature request, or found a bug? Open an issue usi
 - <img src="https://api.iconify.design/mdi:dice-multiple.svg?color=%23a855f7" width="16" style="vertical-align:middle"/> [Suggest a new game](../../issues/new?template=game_suggestion.yml)
 - <img src="https://api.iconify.design/mdi:lightbulb-on-outline.svg?color=%23eab308" width="16" style="vertical-align:middle"/> [Suggest a feature](../../issues/new?template=feature_suggestion.yml)
 
+<a id="support"></a>
 ## Support
 
 Need help or have a question? Join the [support server](SUPPORT_SERVER_LINK) or open a discussion here.
