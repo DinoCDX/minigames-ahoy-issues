@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Help | Minigames Ahoy!</title>
+<meta name="description" content="Every Minigames Ahoy! command, grouped by category and searchable.">
+<meta name="theme-color" content="#101214">
+<link rel="icon" href="assets/logo.png">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@600;800&family=Figtree:wght@400;600&display=swap">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="top" id="top"></header>
+<main class="wrap">
+  <h1 style="margin-top:2rem">Help</h1>
+  <p class="lede">Every command is a slash command. Type <code>/help</code> in Discord for the same list.</p>
+  <label for="q" hidden>Search commands</label>
+  <input id="q" type="search" placeholder="Search commands, e.g. mafia" autocomplete="off">
+  <div class="chips" id="chips"></div>
+  <div id="list"></div>
+  <p id="empty" hidden>No commands match your search.</p>
+</main>
+<footer id="foot"></footer>
+<script src="commands.js"></script>
+<script src="site.js"></script>
+<script>
+const esc = s => s.replace(/[&<>]/g, c => ({"&": "&amp;", "<": "&lt;", ">": "&gt;"}[c]));
+const md = s => esc(s).replace(/\*\*(.+?)\*\*/g, "<b>$1</b>").replace(/`(.+?)`/g, "<code>$1</code>");
+let cat = "All";
+const q = document.getElementById("q"), list = document.getElementById("list"), chips = document.getElementById("chips");
+
+["All", ...HELP.map(g => g.c)].forEach(name => {
+  const b = document.createElement("button");
+  b.textContent = name; b.setAttribute("aria-pressed", name === cat);
+  b.onclick = () => { cat = name; [...chips.children].forEach(x => x.setAttribute("aria-pressed", x === b)); render(); };
+  chips.append(b);
+});
+
+function render() {
+  const term = q.value.trim().toLowerCase().replace(/^\//, "");
+  let html = "", n = 0;
+  for (const g of HELP) {
+    if (cat !== "All" && g.c !== cat) continue;
+    const hits = g.cmds.filter(c => !term || c.n.toLowerCase().includes(term) || c.d.toLowerCase().includes(term));
+    if (!hits.length) continue;
+    n += hits.length;
+    html += `<h2>${esc(g.c)}</h2>` + hits.map(c =>
+      `<details${term && hits.length < 4 ? " open" : ""}><summary><code>/${esc(c.n)}</code></summary><div class="body">` +
+      (c.d ? md(c.d) : '<span class="nodesc">No description.</span>') +
+      c.s.map(([t, v]) => `<h4>${esc(t)}</h4>${md(v)}`).join("") + `</div></details>`).join("");
+  }
+  list.innerHTML = html;
+  document.getElementById("empty").hidden = n > 0;
+}
+q.addEventListener("input", render);
+render();
+</script>
+</body>
+</html>
